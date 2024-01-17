@@ -1,0 +1,33 @@
+.ORIG   x3000
+LEA R1, storeString
+
+LEA R0, Userinput
+PUTS
+
+LOOP
+GETC
+
+OUT
+STR R0, R1, 0
+ADD R1, R1, 1
+ADD R0, R0, -10
+
+brz OUTSIDE
+
+brnzp LOOP
+
+OUTSIDE
+
+LEA R0, Outputtext
+PUTS
+
+LEA R0, storeString
+PUTS
+
+HALT
+
+Userinput .stringz "Enter string: "
+Outputtext .stringz "String: "
+storeString .blkw 99
+
+.END
