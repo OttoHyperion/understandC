@@ -1,0 +1,7 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	BUFF                    301D
+//	INPUT                   300E
+//	LOOP                    3000
+//	LOOP_PRINT              300B
+//	LOOP_READ               3004

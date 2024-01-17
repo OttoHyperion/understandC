@@ -1,0 +1,13 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	COUNT                   3044
+//	INLOOP                  3014
+//	LOOP_PRINT              3025
+//	LOOP_READ               3004
+//	LOOP_SORT               3011
+//	LOOP_SWAP               301C
+//	NEG48                   3045
+//	NEWLINE                 3047
+//	NUMBERS                 303F
+//	POS48                   3046
+//	STRING                  302D
